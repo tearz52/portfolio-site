@@ -223,10 +223,12 @@ section {
 }
 
 .about-text {
-  max-width: 620px;
+  line-height: 1.6; 
+  text-wrap: pretty; 
   font-size: clamp(18px, 2.4vw, 24px);
   font-weight: 400;
-  color: var(--fg);
+  margin-bottom: 2rem; 
+  text-align: justify;
 }
 
 .skills {

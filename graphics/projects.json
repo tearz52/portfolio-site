@@ -1,8 +1,8 @@
 [
   {
-    "image": "graphics/image.jpg",
-    "title": "Disk Image Carver",
-    "link": "https://github.com/sean/disk-image-carver"
+    "image": "graphics/wazuh.png",
+    "title": "SOC Home Lab + Wazuh",
+    "link": "https://shihaong.hashnode.dev/building-a-soc-home-lab-with-wazuh"
   },
   {
     "image": "graphics/packet-analyzer.png",
