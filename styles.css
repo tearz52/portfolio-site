@@ -188,7 +188,7 @@ main {
 }
 
 .scroll-cue {
-  margin-top: 36px;
+  margin-top: 28px;
   width: 40px;
   height: 40px;
   border: 1px solid var(--fg);
@@ -266,19 +266,25 @@ section {
   font-family: var(--mono);
   font-size: 14px;
   font-weight: 500;
-  border-bottom: 1.5px solid var(--fg);
-  padding-bottom: 4px;
-  transition: color 0.2s ease, border-color 0.2s ease, gap 0.2s ease;
+  /* border-bottom and padding-bottom removed from here */
+  transition: color 0.2s ease, gap 0.2s ease;
 }
 
-.blog-link .material-symbols-outlined {
-  font-size: 16px;
+/* This targets ONLY the text */
+.link-text {
+  border-bottom: 1.5px solid var(--fg);
+  padding-bottom: 4px;
+  transition: border-color 0.2s ease;
 }
 
 .blog-link:hover {
   color: var(--accent);
-  border-color: var(--accent);
   gap: 12px;
+}
+
+/* This changes the underline color on hover */
+.blog-link:hover .link-text {
+  border-color: var(--accent);
 }
 
 .project-grid {
