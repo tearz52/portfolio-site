@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sean — Digital Forensics &amp; Software Engineering</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Symbols+Outlined" media="none" onload="this.media='all'">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="logo">SEAN<span class="dot">.</span></div>
+  <nav class="icon-nav" aria-label="social links">
+    <a href="https://github.com/" target="_blank" rel="noopener" aria-label="GitHub">
+      <span class="material-symbols-outlined" aria-hidden="true">code</span>
+    </a>
+    <a href="https://linkedin.com/" target="_blank" rel="noopener" aria-label="LinkedIn">
+      <span class="material-symbols-outlined" aria-hidden="true">work</span>
+    </a>
+    <a href="mailto:sean@example.com" aria-label="Email">
+      <span class="material-symbols-outlined" aria-hidden="true">mail</span>
+    </a>
+    <a href="#" download aria-label="Resume">
+      <span class="material-symbols-outlined" aria-hidden="true">description</span>
+    </a>
+  </nav>
+</header>
+
+<main>
+
+  <section class="hero">
+    <div class="terminal-bar">
+      <span class="term-dot"></span>
+      <span class="term-dot"></span>
+      <span class="term-dot"></span>
+      <span class="term-path">~/sean/whoami</span>
+    </div>
+    <h1 class="hero-name">
+      <span class="reveal-wrap"><span class="reveal-text">Sean<span class="dot">.</span></span></span>
+    </h1>
+    <p class="hero-tagline">
+      <span class="prompt">$</span> <span class="type-text" id="typeTarget"></span><span class="cursor">&#8203;</span>
+    </p>
+    <a class="scroll-cue" href="#projects" aria-label="Scroll to projects">
+      <span class="material-symbols-outlined" aria-hidden="true">south</span>
+    </a>
+  </section>
+
+  <section class="about" id="about">
+    <div class="section-label">
+      <span class="material-symbols-outlined" aria-hidden="true">fingerprint</span>
+      <span>ABOUT</span>
+    </div>
+    <p class="about-text">
+      I trace what's left behind in systems — disks, memory, logs, packets — and I build the software
+      that makes tracing easier. My work sits at the intersection of digital forensics and clean,
+      deliberate engineering: evidence in, answers out.
+    </p>
+    <ul class="skills">
+      <li>Digital Forensics</li>
+      <li>Incident Response</li>
+      <li>Python</li>
+      <li>Reverse Engineering</li>
+      <li>Network Analysis</li>
+      <li>C / C++</li>
+    </ul>
+  </section>
+
+  <section class="projects" id="projects">
+    <div class="section-label">
+      <span class="material-symbols-outlined" aria-hidden="true">folder_open</span>
+      <span>CASE FILES / PROJECTS</span>
+    </div>
+    <div class="project-grid" id="projectGrid"></div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="section-label">
+      <span class="material-symbols-outlined" aria-hidden="true">terminal</span>
+      <span>CONTACT</span>
+    </div>
+    <p class="contact-text">Open to forensics engineering roles, security research, and collaborations.</p>
+    <a class="contact-email" href="mailto:sean@example.com">
+      sean@example.com
+      <span class="material-symbols-outlined" aria-hidden="true">arrow_outward</span>
+    </a>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <span>© <span id="year"></span> Sean</span>
+  <span class="footer-note">Every byte tells a story.</span>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
