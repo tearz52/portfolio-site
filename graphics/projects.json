@@ -5,9 +5,9 @@
     "link": "https://shihaong.hashnode.dev/building-a-soc-home-lab-with-wazuh"
   },
   {
-    "image": "graphics/packet-analyzer.png",
-    "title": "Network Packet Analyzer",
-    "link": "https://github.com/sean/packet-analyzer"
+    "image": "graphics/aria.png",
+    "title": "Aria: Vulnerability Scanner",
+    "link": "https://github.com/tearz52/Aria"
   },
   {
     "image": "graphics/log-timeline.png",
