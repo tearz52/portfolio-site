@@ -1,7 +1,7 @@
 [
   {
     "image": "graphics/wazuh.png",
-    "title": "SOC Home Lab + Wazuh",
+    "title": "SOC Home Lab + Wazuh SIEM",
     "link": "https://shihaong.hashnode.dev/building-a-soc-home-lab-with-wazuh"
   },
   {
@@ -10,23 +10,10 @@
     "link": "https://github.com/tearz52/Aria"
   },
   {
-    "image": "graphics/log-timeline.png",
-    "title": "Log Timeline Reconstructor",
-    "link": "https://github.com/sean/log-timeline-reconstructor"
-  },
-  {
-    "image": "graphics/memory-forensics.png",
-    "title": "Memory Forensics Toolkit",
-    "link": "https://github.com/sean/memory-forensics-toolkit"
-  },
-  {
-    "image": "graphics/hash-verifier.png",
-    "title": "Hash Verification Suite",
-    "link": "https://github.com/sean/hash-verification-suite"
-  },
-  {
-    "image": "graphics/chain-of-custody.png",
-    "title": "Chain of Custody Tracker",
-    "link": "https://github.com/sean/chain-of-custody-tracker"
+    "image": "graphics/c2.png",
+    "title": "C2 Server (In progress...)",
+    "link": ""
   }
+  
+  
 ]
