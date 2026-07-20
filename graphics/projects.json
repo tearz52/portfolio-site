@@ -10,6 +10,12 @@
     "link": "https://github.com/tearz52/Aria"
   },
   {
+    "image": "graphics/picoctf.png",
+    "title": "PicoCTF Writeups",
+    "link": "https://github.com/tearz52/PicoCTF-write-ups"
+  },
+  {
+    
     "image": "graphics/c2.png",
     "title": "C2 Server (In development...)",
     "link": ""
